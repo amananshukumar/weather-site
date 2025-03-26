@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>🌤️ Weather Forecast</h1>
+        <p class="subtitle">Get the latest weather updates for your city.</p>
+        <input type="text" id="city" class="input" placeholder="Enter city name">
+        <button id="getWeather" class="button">Get Weather</button>
+        <div id="output" class="weather-info"></div>
+        <div id="error" class="error"></div>
+    </div>
+    <footer>
+        <p>Powered by <a href="https://open-meteo.com" target="_blank">Open-Meteo API</a></p>
+        <p>made by Aman</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
